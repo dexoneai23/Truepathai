@@ -1,0 +1,18 @@
+# robots.txt for https://truepathai.online/
+# TruePath is a single-page application. Public marketing content
+# (Features, How It Works, Gallery, Principles, About, Community,
+# Testimonials, Privacy, Roadmap, FAQ, Contact) lives on the single
+# indexable URL below as in-page anchor sections, not separate paths.
+#
+# Note: /login, /signup, /dashboard, /ai, /goals, /habits, /insights,
+# /mood, /principles, /profile, /reflections, /settings, /forgot-password
+# are all client-side hash routes (e.g. #/login) rendered by JavaScript
+# after the page loads. Hash fragments are never sent to the server and
+# are not requested or seen by crawlers, so a Disallow rule for them
+# would be invalid and have no effect. They are intentionally omitted
+# below rather than adding non-functional rules.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://truepathai.online/sitemap.xml
